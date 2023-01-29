@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# bwamern_website_travel
 Course BWA MERN Stack - Website Travel
 =======
 # Getting Started with Create React App
