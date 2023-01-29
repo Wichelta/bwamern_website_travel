@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import propTypes from "prop-types";
+import React from "react"
+import { Link } from "react-router-dom"
+import propTypes from "prop-types"
 
 export default function Button(props) {
     const className = [props.className]
@@ -29,7 +29,7 @@ export default function Button(props) {
                     )
                 }
             </span>
-        );
+        )
     }
 
     if (props.type === "link") {
@@ -44,7 +44,7 @@ export default function Button(props) {
                 >
                     {props.children}
                 </a>
-            );
+            )
         } else {
             return (
                 <Link to={props.href}
@@ -54,7 +54,7 @@ export default function Button(props) {
                 >
                     {props.children}
                 </Link>
-            );
+            )
         }
     }
 
@@ -65,7 +65,7 @@ export default function Button(props) {
         >
             {props.children}
         </button>
-    );
+    )
 }
 
 Button.propTypes = {
@@ -81,4 +81,4 @@ Button.propTypes = {
     isBlock: propTypes.bool,
     isExternal: propTypes.bool,
     hasShadow: propTypes.bool,
-};
+}

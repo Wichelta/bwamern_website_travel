@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# bwamern_website_travel
-Course BWA MERN Stack - Website Travel
-=======
-# Getting Started with Create React App
+## Course BWA MERN Stack - Website Travel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+=======
 
 ## Available Scripts
 
