@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "elements/Button"
 import BrandIcon from "parts/IconText"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-awesome-reveal"
 
 export default function Header(props) {
     const getNavLinkClass = (path) => {
@@ -9,7 +9,7 @@ export default function Header(props) {
     }
 
     return (
-        <Fade>
+        <Fade triggerOnce>
             <header className="spacing-sm">
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light">
