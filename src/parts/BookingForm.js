@@ -113,6 +113,8 @@ export default class BookingForm extends Component {
                     isPrimary
                     isBlock
                     onClick={startBooking}
+                    type="link"
+                    href={"/checkout"}
                 >
                     Continue to Book
                 </Button>

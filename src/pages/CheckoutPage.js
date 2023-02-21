@@ -40,7 +40,7 @@ export default class CheckoutPage extends Component {
         const { data } = this.state
 
         const checkout = {
-            duration: 3
+            duration: 5
         }
 
         const steps = {
